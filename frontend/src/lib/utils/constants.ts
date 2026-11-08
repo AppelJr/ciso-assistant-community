@@ -232,7 +232,8 @@ export const LOCALE_DISPLAY_MAP = {
 	ko: '🇰🇷 한국어',
 	et: '🇪🇪 Eesti',
 	sk: '🇸🇰 Slovenčina',
-	sl: '🇸🇮 Slovenščina'
+	sl: '🇸🇮 Slovenščina',
+	nb: '🇳🇴 Norsk bokmål'
 };
 
 export const ISO_8601_REGEX =
@@ -260,6 +261,9 @@ export const DATE_FIELDS_TO_FORMAT = [
 	'expiry_date',
 	'exploited_date_added',
 	'last_assessment_date',
+	'nis2_early_warning_at',
+	'nis2_final_report_at',
+	'nis2_notification_at',
 	'occurred_at',
 	'published_date',
 	'read_at',
